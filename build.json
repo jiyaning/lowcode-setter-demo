@@ -1,0 +1,18 @@
+{
+  "plugins": [
+    [
+      "@alilc/build-plugin-alt",
+      {
+        "type": "setter",
+        "inject": true,
+        "openUrl": "https://lowcode-engine.cn/demo/index.html?debug"
+      }
+    ],
+    [
+      "build-plugin-fusion",
+      {
+        "themePackage": "@alifd/theme-lowcode-light"
+      }
+    ]
+  ]
+}
